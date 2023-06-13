@@ -1,0 +1,77 @@
+.attribution-wrapper { font-size: 11px; text-align: center; }
+.attribution-wrapper a { color: hsl(228, 45%, 44%); }
+body{
+    margin: 0;
+    background: hsl(0deg 0% 85.04%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+h2{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+p{
+    font-family: 'Outfit', sans-serif;
+    text-align: center; 
+}
+
+.wrapper{
+    background: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    width: 280px;
+    height: 465px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (min-width: 1440px){
+    body {
+      background:hsl(0deg 0% 85.04%);
+    }
+}
+
+/* 
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%) --> hsl(0deg 0% 85.04%);
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700 */
